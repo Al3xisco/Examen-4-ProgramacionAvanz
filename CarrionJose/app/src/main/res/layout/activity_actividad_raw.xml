@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ActividadRaw">
+
+    <Button
+        android:id="@+id/btnLeerRaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="4dp"
+        android:text="Cargar Menú" />
+
+    <TextView
+        android:id="@+id/lblHambur"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="113dp"
+        android:hint="TextView" />
+
+    <TextView
+        android:id="@+id/lblCerz"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblEnsald"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-154dp"
+        android:hint="TextView" />
+
+    <TextView
+        android:id="@+id/lblEnsald"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="158dp"
+        android:hint="TextView" />
+
+    <TextView
+        android:id="@+id/lblSalchi"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:hint="TextView" />
+
+    <TextView
+        android:id="@+id/txtPHamb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblHambur"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="111dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtPCervz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblEnsald"
+        android:layout_alignEnd="@+id/txtPHamb"
+        android:layout_marginBottom="-158dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtPEnsald"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblSalchi"
+        android:layout_alignEnd="@+id/txtPHamb"
+        android:layout_marginBottom="-180dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtPSalch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblSalchi"
+        android:layout_alignEnd="@+id/txtPHamb"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="16dp"
+        android:text="Cantidad" />
+
+    <TextView
+        android:id="@+id/lblDatosRaw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="164dp"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</RelativeLayout>
